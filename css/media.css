@@ -1,0 +1,391 @@
+
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+
+/*header start*/
+.nav_c ul li a{
+	padding: 5px 5px;
+}
+.nav_c1 a{
+	padding-left: 0;
+	padding-right: 10px;
+}
+
+/*banner start*/
+.banner1 , .banner2 {
+	height: 500px;
+}
+.b_cm{
+	font-size: 35px;
+	line-height: 45px;
+	padding: 0;
+}
+.search-box input[type="text"] {
+    width: 180px;
+}
+.search-box button {
+    padding: 10px 10px;
+    font-size: 16px;
+}
+.banner-content2 a{
+	font-size: 16px;
+}
+/*destination start*/
+.cm_header{
+	margin-bottom: 50px;
+}
+.cm_header h1{
+	font-size: 30px;
+	line-height: 35px;
+	color: #171A1F;
+}
+.sm_h h1{
+	text-align: center;
+}
+.c_text p {
+    margin-bottom: 10px;
+}
+.prev-btn, .next-btn {
+	top: -5%;
+}
+.prev-btn {
+    right: 14%;
+}
+.cus_i{
+	font-size: 25px;
+}
+
+
+
+/*first footer start*/
+.f_footer{
+	padding: 45px;
+}
+.ff_text{
+	display: block;
+}
+.cota {
+	float: none;
+	text-align: center;
+}
+.cota p{
+	font-size: 40px;
+	line-height: 35px;
+}
+.ff1_text, .ff2_text{
+	text-align: center;
+}
+.ff_u{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	margin-top: 25px;
+}
+/*tours start*/
+.tours{
+	padding: 40px 0 20px;
+}
+.cm_header {
+    margin-bottom: 25px;
+}
+.t_li1{
+	float: right;
+	margin-top: 25px;
+	margin-left: -60px;
+}
+.t_li1 a{
+	padding: 8px 10px;
+	font-size: 16px;
+}
+.t_li1 i{
+	display: none;
+}
+
+/*g_book start*/
+.g_book{
+	padding: 40px 0;
+}
+.gb_text{
+	text-align: center;
+	padding: 0;
+}
+.gb_text p{
+	margin-bottom: 30px;
+	font-size: 30px;
+	line-height: 40px;
+}
+/*community start*/
+.community{
+	padding: 30px 0;
+}
+
+
+/*footer top start*/
+.f_top{
+	padding: 40px 25px 20px
+}
+.ft_img{
+	text-align: center;
+	margin-bottom: 25px;
+}
+.ft_text{
+	text-align: center;
+}
+
+/*footer start*/
+footer{
+	padding: 30px 20px 20px;
+}
+.f_text:first-child{
+	margin-left: 0;
+}
+.f_text{
+	text-align: center;
+	margin-bottom: 25px;
+}
+
+}
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+/*header start*/
+.nav_c ul li a{
+	padding: 5px 5px;
+}
+.nav_c1 a{
+	padding-left: 0;
+	padding-right: 15px;
+}
+
+/*banner start*/
+.b_cm{
+	font-size: 40px;
+	line-height: 50px;
+}
+/*destination start*/
+.destinations{
+	padding: 50px 0 25px;
+}
+.cm_header{
+	margin-bottom: 35px;
+}
+.cm_header h1{
+	font-size: 35px;
+	line-height: 40px;
+	color: #171A1F;
+}
+.prev-btn, .next-btn {
+	top: -15%;
+}
+.prev-btn {
+    right: 12%;
+}
+.cus_i{
+	font-size: 35px;
+}
+
+
+/*first footer start*/
+.f_footer{
+	padding: 45px;
+}
+.ff_text{
+	display: block;
+}
+.cota {
+	float: none;
+	text-align: center;
+}
+.cota p{
+	font-size: 50px;
+	line-height: 40px;
+}
+.ff_u{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	margin-top: 25px;
+}
+
+/*g_book start*/
+.g_book{
+	padding: 40px 0;
+}
+.gb_text{
+	text-align: center;
+	padding: 0;
+}
+.gb_text p{
+	margin-bottom: 35px;
+	font-size: 35px;
+	line-height: 45px;
+}
+/*tours start*/
+.tours{
+	padding: 50px 0 25px;
+}
+.t_li1{
+	margin-top: 8px;
+}
+/*community start*/
+.community{
+	padding: 50px 0 ;
+}
+
+
+/*footer top start*/
+.f_top{
+	padding: 40px 30px 20px
+}
+.ft_img{
+	text-align: center;
+	margin-bottom: 25px;
+}
+.ft_text{
+	text-align: center;
+}
+
+/*footer start*/
+footer{
+	padding: 30px 10px 20px;
+}
+.f_text:first-child{
+	margin-left: 0;
+}
+.f_text{
+	text-align: center;
+}
+
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+/*header start*/
+.nav_c ul li a{
+	padding: 5px 5px;
+}
+.nav_c1 a{
+	padding-left: 0;
+	padding-right: 15px;
+}
+/*banner start*/
+.b_cm{
+	font-size: 70px;
+	line-height: 70px;
+}
+
+/*destination start*/
+.destinations{
+	padding: 70px 0 25px;
+}
+.cm_header{
+	margin-bottom: 40px;
+}
+.cm_header h1{
+	padding: 0 20px;
+	font-size: 40px;
+	line-height: 45px;
+	color: #171A1F;
+}
+.prev-btn, .next-btn {
+	top: -20%;
+}
+
+.cus_i{
+	font-size: 40px;
+}
+
+
+/*first footer start*/
+.f_footer{
+	padding: 55px 0;
+}
+.ff_text{
+	display: block;
+}
+.cota {
+	float: none;
+	text-align: center;
+	line-height: 50px;
+}
+.cota p{
+	font-size: 60px;
+}
+.ff1_text {
+    text-align: center;
+}
+.ff_u{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	margin-top: 25px;
+}
+/*tours start*/
+.tours{
+	padding: 70px 0 25px;
+}
+
+/*g_book start*/
+.g_book{
+	padding-bottom: 15px ;
+}
+.gb_text p{
+	margin-bottom: 30px;
+	font-size: 35px;
+	line-height: 50px;
+}
+.gb_button{
+	font-size: 16px;
+}
+/*community start*/
+.community{
+	padding: 70px 0 ;
+}
+
+/*footer top start*/
+.f_top{
+	padding: 50px 40px 10px;
+}
+.ft_img{
+	text-align: center;
+	margin-bottom: 25px;
+}
+.ft_text{
+	text-align: center;
+}
+
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+
+
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+
+/*banner start*/
+.b_cm {
+    padding: 0 40px 0;
+}
+
+}
+
+/*Extra Extra large devices (large desktops, 1400px and up)*/
+@media (min-width: 1400px) {
+
+/*banner start*/
+.b_cm {
+    padding: 0 160px 0;
+}
+
+
+/*g_book start*/
+.gb_text{
+    padding: 0 50px;
+}
+
+}
