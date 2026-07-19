@@ -1,45 +1,42 @@
-# Nipro Agency
+# SERENE ESCAPES
 
-A static, single-page website template for a fictional full-service agency ("Nipro Agency"), built with plain HTML, CSS, and Bootstrap. No build step, framework, or backend required.
+A static homepage for a fictional travel brand, "Serene Escapes," built with plain HTML, CSS, and Bootstrap. No build step, framework, or backend required.
 
-**Live demo:** https://tasifhossan.github.io/Nipro/
+**Live demo:** https://tasifhossan.github.io/SERENE-ESCAPES-Homepage/
 
 ## Sections
 
 The site is a single `index.html` page with the following sections:
 
-- Navbar (fixed header)
-- Hero / carousel slider
-- About
-- Services
-- Portfolio
-- Testimonials (carousel)
-- Contact form
-- Footer
+- Header / navbar (Home, Destinations, Trips, Shop, Community, News)
+- Banner 1 & Banner 2 (hero/promo banners)
+- Card slider / carousel
+- Destinations
+- Tours
+- Community
+- News stories
+- Guidebook ("g_book")
+- Footer (with a footer-top section)
 
 ## Tech stack
 
 - **HTML5 / CSS3**
-- **Bootstrap** (bundled locally under `css/` and `js/bootstrap.bundle.min.js`)
-- **Font Awesome** and **Pe-icon-7-stroke** icon sets (bundled under `icons/`)
-- **Google Fonts** (Lato, Roboto — bundled locally under `fonts/`)
-- Vanilla JS (`js/script.js`) for interactive behavior (nav toggle, carousels, etc.)
+- **Bootstrap** (bundled locally under `css/` and `js/bootstrap.bundle.js` / `.min.js`)
+- Vanilla JS (`js/script.js`) for interactive behavior (nav, carousels, etc.)
 
 ## Project structure
 
 ```
-Nipro/
+SERENE-ESCAPES-Homepage/
 ├── index.html          # The entire site (single page)
 ├── css/
 │   ├── bootstrap.css / bootstrap.min.css
 │   ├── style.css       # Custom styles
 │   └── media.css       # Responsive/breakpoint styles
 ├── js/
-│   ├── bootstrap.bundle.min.js
+│   ├── bootstrap.bundle.js / bootstrap.bundle.min.js
 │   └── script.js       # Custom interactive behavior
-├── fonts/               # Lato & Roboto font files
-├── icons/               # Font Awesome + Pe-icon-7-stroke icon sets
-└── images/              # Section backgrounds, team photos, project thumbnails
+└── images/              # Banners, destination/tour thumbnails, icons, logo
 ```
 
 ## Getting started
@@ -52,7 +49,7 @@ Just open `index.html` in your browser.
 
 ### Option 2: Run a local server (recommended)
 
-Some browsers restrict local file access (e.g. for fonts/assets), so serving it is more reliable:
+Some browsers restrict local file/asset access, so serving it is more reliable:
 
 ```bash
 # Using Python 3
@@ -66,15 +63,15 @@ Then visit `http://localhost:8000`.
 
 ## Deployment
 
-This project is already deployed via **GitHub Pages** at https://tasifhossan.github.io/Nipro/. Since it's a static site, any static host works equally well (Netlify, Vercel, Cloudflare Pages, etc.) — just point the host at the repository root, as there's no build command required.
+This project is already deployed via **GitHub Pages** at https://tasifhossan.github.io/SERENE-ESCAPES-Homepage/. Since it's a static site, any static host works equally well (Netlify, Vercel, Cloudflare Pages, etc.) — just point the host at the repository root, as there's no build command required.
 
 ## Customizing
 
-- **Content:** edit the relevant section directly in `index.html`.
+- **Content:** edit the relevant section directly in `index.html` (sections are marked with HTML comments like `<!-- destinations start -->` / `<!-- destinations end -->` to make them easy to find).
 - **Styling:** custom overrides live in `css/style.css`; responsive/breakpoint tweaks live in `css/media.css`.
 - **Images:** replace files in `images/` (keeping the same filenames avoids needing to update `index.html`).
-- **Contact form:** the form in the Contact section currently has no backend wired up — connecting it to an email service (e.g. Formspree, EmailJS) or your own backend is required for it to actually send messages.
+- **Nav/menu items:** currently Home, Destinations, Trips, Shop, Community, News — none of these link to separate pages yet, since this repo only contains the homepage.
 
 ## License
 
-No license file is currently included in this repository. All rights reserved by the author unless stated otherwise. Note that the bundled icon sets (Font Awesome, Pe-icon-7-stroke) carry their own licenses — see `icons/LICENSE.txt`.
+No license file is currently included in this repository. All rights reserved by the author unless stated otherwise.
